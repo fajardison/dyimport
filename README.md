@@ -82,8 +82,7 @@ Error jika terjadi kesalahan selama proses impor.
 ```
 
 ## Lisensi
-Proyek ini dilisensikan di bawah [lisensi MIT](https://github.com/fajardison/dyimport?tab=MIT-1-ov-file)
-. Lihat LICENSE untuk informasi lebih lanjut.
+Proyek ini dilisensikan di bawah lisensi MIT. Lihat [LICENSE](https://github.com/fajardison/dyimport?tab=MIT-1-ov-file) untuk informasi lebih lanjut.
 
 ## Kontak
 Untuk pertanyaan atau informasi lebih lanjut, Anda dapat menghubungi kami di [Github].(https://github.com/fajardison/dyimport).
