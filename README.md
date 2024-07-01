@@ -3,7 +3,7 @@
 [![NPM Version](https://img.shields.io/npm/v/cache-class)](https://www.npmjs.com/package/cache-class)
 [![License](https://img.shields.io/npm/l/cache-js)](https://github.com/fajardison/dyimport?tab=MIT-1-ov-file)
 
-`dyimport` adalah pustaka untuk mengimpor modul javascript ESM secara dinamis dari direktori root yang ditentukan dengan fitur tambahan seperti caching dan hashing untuk meningkatkan efisiensi. Pustaka ini dirancang untuk mempermudah pengelolaan modul dalam proyek besar dengan struktur folder yang kompleks.
+`dyimport` adalah pustaka untuk mengimpor modul `javascript ESM` secara dinamis dari direktori root yang ditentukan dengan fitur tambahan seperti caching dan hashing untuk meningkatkan efisiensi. Pustaka ini dirancang untuk mempermudah pengelolaan modul dalam proyek besar dengan struktur folder yang kompleks.
 
 ## Fitur Utama
 - Import Dinamis: Mengimpor modul berdasarkan nama file pada runtime.
@@ -17,17 +17,17 @@
 - Global Folder: Menentukan folder global pada package.json menggunakan variabel root dengan tipe data array.
 
 ## Instalasi
-Anda dapat menginstal dyimport melalui npm dengan perintah berikut:
+Anda dapat menginstal `dyimport` melalui npm dengan perintah berikut:
 
 ```sh
 npm install dyimport
 ```
 
-## Penggunaan
-Berikut adalah contoh cara menggunakan dyimport dalam aplikasi Anda:
+# Penggunaan
+Berikut adalah contoh cara menggunakan `dyimport` dalam aplikasi Anda:
 
 ## Konfigurasi package.json
-Untuk mendefinisikan direktori root global dan memungkinkan dyimport mencari file yang ditentukan dalam subfolder, Anda perlu menambahkan konfigurasi berikut dalam package.json Anda:
+Untuk mendefinisikan direktori `root` global dan memungkinkan `dyimport` mencari file yang ditentukan dalam subfolder, Anda perlu menambahkan konfigurasi berikut dalam package.json Anda:
 ```json
 {
   "type": "module",
@@ -82,7 +82,8 @@ Error jika terjadi kesalahan selama proses impor.
 ```
 
 ## Lisensi
-Proyek ini dilisensikan di bawah Lisensi MIT. Lihat LICENSE untuk informasi lebih lanjut.
+Proyek ini dilisensikan di bawah [lisensi MIT](https://github.com/fajardison/dyimport?tab=MIT-1-ov-file)
+. Lihat LICENSE untuk informasi lebih lanjut.
 
 ## Kontak
-Untuk pertanyaan atau informasi lebih lanjut, Anda dapat menghubungi kami di bhinneka@gmail.com.
+Untuk pertanyaan atau informasi lebih lanjut, Anda dapat menghubungi kami di [Github].(https://github.com/fajardison/dyimport).
