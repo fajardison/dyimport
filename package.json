@@ -25,7 +25,9 @@
     "README.md",
     "index.js",
     "src/",
-    "test/"
+    "test/",
+    "cache/",
+    "keys/"
   ],
   "author": "Dimas Fajar <bhinneka>",
   "license": "MIT",
