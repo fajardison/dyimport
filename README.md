@@ -30,9 +30,12 @@ Berikut adalah contoh cara menggunakan `dyimport` dalam aplikasi Anda:
 Untuk mendefinisikan direktori `root` global dan memungkinkan `dyimport` mencari file yang ditentukan dalam subfolder, Anda perlu menambahkan konfigurasi berikut dalam package.json Anda:
 ```json
 {
+  "name": "module-name",
+  "version" : "x.x.x",
+  "main": "index.js",
   "type": "module",
   "root": [
-    "path",
+    "main",
     "path/to/your/module"
   ]
 }
