@@ -1,8 +1,9 @@
-/**
- * @license MIT
- * Hak Cipta (c) 2024 Dimas Fajar
+/*!
+ * dyimport
  * @description Modul ini menyediakan fungsi untuk membaca data dari file `package.json`.
  * Fungsi ini mencari field "root" di dalam `package.json` dan mengembalikan nilainya.
+ * Copyright(c) 2024 Dimas Fajar
+ * MIT Licensed
  */
 
 'use strict';
