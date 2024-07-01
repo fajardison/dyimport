@@ -1,9 +1,11 @@
+/*!
+ * cache-manager
+ * @description Menghapus semua entri dari cache.
+ * Copyright (c) 2024 Dimas Fajar
+ * MIT Licensed
+ */
+
 /**
- * @license MIT
- * Hak Cipta (c) 2024 Dimas Fajar
- * 
- * Menghapus semua entri dari cache.
- * 
  * Fungsi ini terlebih dahulu mengautentikasi permintaan menggunakan token yang diberikan.
  * Jika berhasil diautentikasi, fungsi ini akan menghapus semua entri dalam cache dengan mereset objek cache.
  * 
