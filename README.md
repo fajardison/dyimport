@@ -64,9 +64,10 @@ runTest();
 ```
 
 # API
+```bash
 load(fileName: string): Promise<any>
 Parameter:
-```bash
+
 fileName: Nama file modul yang akan diimpor.
 Returns:
 
