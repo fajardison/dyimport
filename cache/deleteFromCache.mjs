@@ -40,6 +40,6 @@ export default async function deleteFromCache(key, token) {
     }
     return Promise.resolve(false);
   } else {
-    return Promise.reject(new Error('Tidak sah'));
+    return Promise.reject(new Error('Unauthorized'));
   }
 }
