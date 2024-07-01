@@ -26,7 +26,7 @@
  * }
  */
  
- 'use strict';
+'use strict';
  
 export default async function addToCache(key, value, token, ttl = 3600) {
   if (this.authenticate(token)) {
