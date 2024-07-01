@@ -1,6 +1,6 @@
 /*!
  * dyimport
- *  @description Modul ini menyediakan fungsi untuk inisialisasi Secret dan Cache.
+ * @description Modul ini menyediakan fungsi untuk inisialisasi Secret dan Cache.
  * Copyright(c) 2024 Dimas Fajar
  * MIT Licensed
  */
