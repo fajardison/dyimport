@@ -1,7 +1,7 @@
 /**
  * @description Modul ini menyediakan fungsi untuk inisialisasi Secret dan Cache.
  * @license MIT
- * (c) 2024 Dimas Fajar
+ * Hak Cipta (c) 2024 Dimas Fajar
  */
 
 'use strict';
