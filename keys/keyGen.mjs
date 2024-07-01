@@ -1,8 +1,10 @@
 /*!
- * @license MIT
- * Hak Cipta (c) 2024 Dimas Fajar
- * @description Modul ini menyediakan fungsi untuk menghasilkan string acak dengan panjang bit yang ditentukan,
+ * random-key
+ *  @description Modul ini menyediakan fungsi untuk menghasilkan string acak dengan panjang bit yang ditentukan,
  * menggunakan berbagai set karakter termasuk angka, huruf, dan karakter khusus.
+ * Fungsi ini mencari field "root" di dalam `package.json` dan mengembalikan nilainya.
+ * Copyright(c) 2024 Dimas Fajar
+ * MIT Licensed
  */
 
 'use strict';
