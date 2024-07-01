@@ -1,7 +1,7 @@
 /**
  * @description Modul ini menyediakan fungsi untuk mencari dan mendaftar file dalam direktori secara rekursif.
  * @license MIT
- * (c) 2024 Dimas Fajar
+ * Hak Cipta (c) 2024 Dimas Fajar
  */
 
 'use strict';
