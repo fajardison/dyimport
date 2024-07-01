@@ -1,5 +1,5 @@
-## dyimport
-dyimport adalah pustaka untuk mengimpor modul secara dinamis dari direktori root yang ditentukan dengan fitur tambahan seperti caching dan hashing untuk meningkatkan efisiensi. Pustaka ini dirancang untuk mempermudah pengelolaan modul dalam proyek besar dengan struktur folder yang kompleks.
+## Dynamic Import
+dyimport adalah pustaka untuk mengimpor modul javascript ESM secara dinamis dari direktori root yang ditentukan dengan fitur tambahan seperti caching dan hashing untuk meningkatkan efisiensi. Pustaka ini dirancang untuk mempermudah pengelolaan modul dalam proyek besar dengan struktur folder yang kompleks.
 
 # Fitur Utama
 - Import Dinamis: Mengimpor modul berdasarkan nama file pada runtime.
