@@ -1,14 +1,14 @@
 /*!
  * @license MIT
- * (c) 2024 Dimas Fajar
+ * Hak Cipta (c) 2024 Dimas Fajar
  * @description Modul ini menyediakan kelas Secret untuk menghasilkan dan memverifikasi hash
  * menggunakan data acak, dengan fitur tambahan seperti hashing dan validasi.
  */
 
 'use strict';
 
-import { Generate } from './keyGen.mjs'; // menggunakan generate 
-import Hash from './sha.mjs'; // menggunakan sha
+import { Generate } from './keyGen.mjs';
+import Hash from './sha.mjs';
 
 /**
  * Kelas Secret untuk menghasilkan dan memverifikasi hash.
