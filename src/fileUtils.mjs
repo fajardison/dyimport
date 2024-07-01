@@ -1,5 +1,6 @@
 /*!
  * dyimport
+ * @description Modul ini menyediakan fungsi untuk mencari dan mendaftar file dalam direktori secara rekursif.
  * Copyright(c) 2024 Dimas Fajar
  * MIT Licensed
  */
@@ -10,7 +11,6 @@ import path from 'path';
 import fs from 'fs/promises';
 
 /**
- * @description Modul ini menyediakan fungsi untuk mencari dan mendaftar file dalam direktori secara rekursif.
  * Mencari file di direktori dan subdirektori secara rekursif.
  * @param {string} fileName - Nama file yang dicari.
  * @param {Array<string>} directories - Daftar direktori untuk mencari file.
