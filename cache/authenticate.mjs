@@ -1,9 +1,11 @@
+/*!
+ * cache-manager
+ * @description Mengautentikasi sebuah permintaan berdasarkan token yang diberikan.
+ * Copyright (c) 2024 Dimas Fajar
+ * MIT Licensed
+ */
+
 /**
- * @license MIT
- * Hak Cipta (c) 2024 Dimas Fajar
- * 
- * Mengautentikasi sebuah permintaan berdasarkan token yang diberikan.
- * 
  * Fungsi ini memeriksa apakah token yang diberikan cocok dengan token autentikasi yang tersimpan.
  * Jika cocok, autentikasi berhasil dan fungsi mengembalikan `true`.
  * Jika tidak cocok, sebuah error akan dilempar yang menunjukkan akses tidak sah.
