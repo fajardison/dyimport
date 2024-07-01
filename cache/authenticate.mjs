@@ -21,6 +21,8 @@
  *   console.error(error.message);
  * }
  */
+
+'use strict';
  
 export default function authenticate(token) {
   if (token === this.authToken) {
