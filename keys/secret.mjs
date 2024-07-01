@@ -1,8 +1,10 @@
 /*!
- * @license MIT
- * Hak Cipta (c) 2024 Dimas Fajar
+ * random-key
  * @description Modul ini menyediakan kelas Secret untuk menghasilkan dan memverifikasi hash
  * menggunakan data acak, dengan fitur tambahan seperti hashing dan validasi.
+ * Fungsi ini mencari field "root" di dalam `package.json` dan mengembalikan nilainya.
+ * Copyright (c) 2024 Dimas Fajar
+ * MIT Licensed
  */
 
 'use strict';
