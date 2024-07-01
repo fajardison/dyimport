@@ -21,6 +21,9 @@
  *   console.error('Error menghapus cache:', error.message);
  * }
  */
+
+'use strict';
+
 export default async function clearCache(token) {
   if (this.authenticate(token)) {
     this.cache = {};
