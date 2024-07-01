@@ -1,9 +1,11 @@
-/**
- * @license MIT
- * Hak Cipta (c) 2024 Dimas Fajar
- * 
- * Menambahkan pasangan key-value ke dalam cache jika terautentikasi.
- * 
+/*!
+ * cache-manager
+ * @description Menambahkan pasangan key-value ke dalam cache jika terautentikasi.
+ * Copyright (c) 2024 Dimas Fajar
+ * MIT Licensed
+ */
+
+ /** 
  * Fungsi ini pertama-tama mengautentikasi permintaan menggunakan token yang diberikan.
  * Jika terautentikasi, fungsi ini memeriksa apakah batas ukuran cache telah tercapai.
  * Jika tidak, fungsi ini menambahkan pasangan key-value ke dalam cache dengan waktu hidup opsional (ttl).
