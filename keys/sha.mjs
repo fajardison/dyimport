@@ -1,6 +1,6 @@
 /*!
  * @license MIT
- * (c) 2024 Dimas Fajar
+ * Hak Cipta (c) 2024 Dimas Fajar
  * @description Modul ini menyediakan fungsi untuk menghasilkan dan memverifikasi hash menggunakan algoritma yang ditentukan.
  */
 
