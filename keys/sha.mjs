@@ -1,17 +1,14 @@
 /*!
- * @license MIT
- * Hak Cipta (c) 2024 Dimas Fajar
+ * random-key
  * @description Modul ini menyediakan fungsi untuk menghasilkan dan memverifikasi hash menggunakan algoritma yang ditentukan.
+ * Copyright(c) 2024 Dimas Fajar
+ * MIT Licensed
  */
 
 'use strict';
 
 import { createHash } from 'crypto';
 
-/**
- * @class Hash
- * @description Kelas untuk menangani operasi hashing menggunakan algoritma yang ditentukan.
- */
 class Hash {
   /**
    * Menghasilkan hash dari input menggunakan algoritma yang ditentukan.
