@@ -1,0 +1,35 @@
+{
+  "name": "dyimport",
+  "version": "1.0.0",
+  "description": "Library for dynamic import of modules in multiple folders using ESM javascript modules",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "test": "node test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fajardison/dyimport"
+  },
+  "keywords": [
+    "dyimport",
+    "import",
+    "module",
+    "dynamic",
+    "importer"
+  ],
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "src/",
+    "test/"
+  ],
+  "author": "Dimas Fajar <bhinneka>",
+  "license": "MIT",
+  "root": [
+    "test/module"
+    ]
+}
