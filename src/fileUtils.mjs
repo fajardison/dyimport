@@ -1,7 +1,7 @@
 /*!
  * dyimport
  * @description Modul ini menyediakan fungsi untuk mencari dan mendaftar file dalam direktori secara rekursif.
- * Copyright(c) 2024 Dimas Fajar
+ * Copyright (c) 2024 Dimas Fajar
  * MIT Licensed
  */
 
