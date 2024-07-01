@@ -5,7 +5,7 @@
  * MIT Licensed
  */
 
- /** 
+/** 
  * Fungsi ini pertama-tama mengautentikasi permintaan menggunakan token yang diberikan.
  * Jika terautentikasi, fungsi ini memeriksa apakah batas ukuran cache telah tercapai.
  * Jika tidak, fungsi ini menambahkan pasangan key-value ke dalam cache dengan waktu hidup opsional (ttl).
