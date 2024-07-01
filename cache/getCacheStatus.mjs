@@ -25,7 +25,7 @@
  * }
  */
  
- 'use strict';
+'use strict';
  
 export default async function getCacheStatus(token) {
   if (this.authenticate(token)) {
