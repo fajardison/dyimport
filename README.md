@@ -1,11 +1,9 @@
-## Dynamic Import
-
+## Dynamic Import Library
+# _dyimport_
 [![NPM Version](https://img.shields.io/npm/v/cache-class)](https://www.npmjs.com/package/cache-class)
 [![License](https://img.shields.io/npm/l/cache-js)](https://github.com/fajardison/dyimport?tab=MIT-1-ov-file)
 
-# dyimport
-
-dyimport adalah pustaka untuk mengimpor modul javascript ESM secara dinamis dari direktori root yang ditentukan dengan fitur tambahan seperti caching dan hashing untuk meningkatkan efisiensi. Pustaka ini dirancang untuk mempermudah pengelolaan modul dalam proyek besar dengan struktur folder yang kompleks.
+`dyimport` adalah pustaka untuk mengimpor modul javascript ESM secara dinamis dari direktori root yang ditentukan dengan fitur tambahan seperti caching dan hashing untuk meningkatkan efisiensi. Pustaka ini dirancang untuk mempermudah pengelolaan modul dalam proyek besar dengan struktur folder yang kompleks.
 
 # Fitur Utama
 - Import Dinamis: Mengimpor modul berdasarkan nama file pada runtime.
