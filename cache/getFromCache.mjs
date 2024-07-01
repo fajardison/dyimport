@@ -1,9 +1,11 @@
+/*!
+ * cache-manager
+ * @description Mengambil nilai dari cache berdasarkan kunci yang diberikan.
+ * Copyright (c) 2024 Dimas Fajar
+ * MIT Licensed
+ */
+
 /**
- * @license MIT
- * Hak Cipta (c) 2024 Dimas Fajar
- * 
- * Mengambil nilai dari cache berdasarkan kunci yang diberikan.
- * 
  * Fungsi ini terlebih dahulu mengautentikasi permintaan menggunakan token yang diberikan.
  * Jika autentikasi berhasil, fungsi ini memeriksa apakah entri cache untuk kunci yang diberikan
  * masih valid. Jika valid, fungsi ini mengembalikan nilai cache. Jika entri cache telah kedaluwarsa
