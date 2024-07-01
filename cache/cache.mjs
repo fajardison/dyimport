@@ -1,9 +1,11 @@
+/*!
+ * cache-manager
+ * @description Kelas yang mewakili cache dengan fitur autentikasi dan manajemen.
+ * Copyright (c) 2024 Dimas Fajar
+ * MIT Licensed
+ */
+
 /**
- * @license MIT
- * Hak Cipta (c) 2024 Dimas Fajar
- * 
- * Kelas yang mewakili cache dengan fitur autentikasi dan manajemen.
- * 
  * Kelas `Cache` menyediakan mekanisme untuk menyimpan, mengambil, menghapus, dan mengelola item cache
  * dengan autentikasi dan manajemen ukuran cache yang terintegrasi. Kelas ini memungkinkan penetapan
  * ukuran maksimum cache dan mencakup metode untuk menambahkan, mengambil, menghapus, dan menghapus semua
