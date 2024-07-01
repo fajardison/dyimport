@@ -2,7 +2,7 @@
  * dyimport
  * @description Modul ini menyediakan fungsi untuk membaca data dari file `package.json`.
  * Fungsi ini mencari field "root" di dalam `package.json` dan mengembalikan nilainya.
- * Copyright(c) 2024 Dimas Fajar
+ * Copyright (c) 2024 Dimas Fajar
  * MIT Licensed
  */
 
