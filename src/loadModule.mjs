@@ -1,6 +1,6 @@
 /*!
  * @license MIT
- * (c) 2024 Dimas Fajar
+ * Hak Cipta (c) 2024 Dimas Fajar
  * @description Modul ini menyediakan fungsi untuk mengimpor modul secara dinamis dari root direktori yang ditentukan,
  * dengan fitur caching dan hashing untuk meningkatkan efisiensi. Modul ini memanfaatkan `Secret` untuk menghasilkan
  * hash unik dan `Cache` untuk menyimpan hasil impor modul. Juga menyediakan fungsi untuk mencari file dalam direktori
