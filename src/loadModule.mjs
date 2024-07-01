@@ -4,7 +4,7 @@
  * dengan fitur caching dan hashing untuk meningkatkan efisiensi. Modul ini memanfaatkan `Secret` untuk menghasilkan
  * hash unik dan `Cache` untuk menyimpan hasil impor modul. Juga menyediakan fungsi untuk mencari file dalam direktori
  * dan subdirektori secara rekursif.
- * Copyright(c) 2024 Dimas Fajar
+ * Copyright (c) 2024 Dimas Fajar
  * MIT Licensed
  */
 
