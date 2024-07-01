@@ -1,9 +1,11 @@
+/*!
+ * cache-manager
+ * @description Mengambil status dari cache, termasuk ukuran dan rincian setiap item cache.
+ * Copyright (c) 2024 Dimas Fajar
+ * MIT Licensed
+ */
+
 /**
- * @license MIT
- * Hak Cipta (c) 2024 Dimas Fajar
- * 
- * Mengambil status dari cache, termasuk ukuran dan rincian setiap item cache.
- * 
  * Fungsi ini mengautentikasi permintaan menggunakan token yang diberikan. Jika autentikasi
  * berhasil, fungsi ini mengembalikan status cache saat ini, termasuk jumlah item dan 
  * rincian tentang setiap item, seperti kunci, nilai, waktu kadaluarsa, dan waktu yang tersisa 
