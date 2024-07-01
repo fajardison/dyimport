@@ -1,9 +1,11 @@
+/*!
+ * cache-manager
+ * @description Menghapus nilai dari cache berdasarkan kunci yang diberikan.
+ * Copyright (c) 2024 Dimas Fajar
+ * MIT Licensed
+ */
+
 /**
- * @license MIT
- * Hak Cipta (c) 2024 Dimas Fajar
- * 
- * Menghapus nilai dari cache berdasarkan kunci yang diberikan.
- * 
  * Fungsi ini terlebih dahulu mengautentikasi permintaan menggunakan token yang diberikan.
  * Jika berhasil diautentikasi, fungsi ini memeriksa apakah entri cache untuk kunci yang diberikan ada.
  * Jika ada, entri tersebut dihapus dari cache dan fungsi ini mengembalikan `true`.
