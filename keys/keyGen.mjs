@@ -1,6 +1,6 @@
 /*!
  * @license MIT
- * (c) 2024 Dimas Fajar
+ * Hak Cipta (c) 2024 Dimas Fajar
  * @description Modul ini menyediakan fungsi untuk menghasilkan string acak dengan panjang bit yang ditentukan,
  * menggunakan berbagai set karakter termasuk angka, huruf, dan karakter khusus.
  */
@@ -140,7 +140,7 @@ class Generate {
    */
   static validateBitLength(bitLength) {
     if (!Number.isInteger(bitLength) || bitLength <= 0) {
-      throw new Error('bitLength harus bilangan bulat positif');
+      throw new Error('bitLength must be a positive integer');
     }
   }
 
@@ -152,7 +152,7 @@ class Generate {
    */
   static validateCharacters(characters) {
     if (!characters || characters.length === 0) {
-      throw new Error('Kumpulan karakter tidak boleh kosong');
+      throw new Error('The character set cannot be empty');
     }
   }
 }
