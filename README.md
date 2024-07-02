@@ -36,7 +36,7 @@ Untuk mendefinisikan direktori `root` global dan memungkinkan `dyimport` mencari
   "type": "module",
   "root": [
     "main",
-    "path/to/your/module"
+    "path/to/your/modules"
   ]
 }
 ```
@@ -44,7 +44,7 @@ Untuk mendefinisikan direktori `root` global dan memungkinkan `dyimport` mencari
 ```js
 import load from 'dyimport';
 
-// Mengimpor modul secara dinamis dan mencari 'module.js' di dalam direktori root yang telah ditentukan pada package.json
+// Import the module dynamically and search for 'module.js' in the root directory specified in package.json.
 const variabel = await load('module.js');
 const { module1, module2 } await load(module.mjs)
 ```
@@ -56,11 +56,11 @@ import load from 'dyimport';
 
 async function runTest() {
   try {
-    // Mengimpor file 'module/testFile.js'
+    // Importing file 'path/to/you/modules/testFile.js'
     const { test1, test2 } = await load('module/testFile.js');
     
-    // Menggunakan fungsi yang diimpor
-    console.log(test1()); // Output: this is test use dyimport.
+    // Using imported modules
+    console.log(test1()); // Output: this is a test using dyimport.
     console.log(test2()); // Output: test successful.
   } catch (error) {
     console.error('Error:', error);
@@ -73,13 +73,13 @@ runTest();
 Anda juga dapat melakukan nya seperti ini.
 ```js
 import load from 'dyimport';
-// Mengimpor file 'module/testFile.js'
+// Importing file 'path/to/you/modules/testFile.js'
 const { test1, test2 } = await load('module/testFile.js');
 
 async function runTest() {
   try {
-    // Menggunakan fungsi yang diimpor
-    console.log(test1()); // Output: this is test use dyimport.
+    // Using imported modules
+    console.log(test1()); // Output: this is a test using dyimport.
     console.log(test2()); // Output: test successful.
   } catch (error) {
     console.error('Error:', error);
