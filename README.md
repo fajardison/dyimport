@@ -1,6 +1,6 @@
 # Dynamic Import Library
 ## _dyimport_
-[![NPM Version](https://img.shields.io/npm/v/cache-class)](https://www.npmjs.com/package/dyimport?activeTab=versions))
+[![NPM Version](https://img.shields.io/npm/v/cache-class)](https://www.npmjs.com/package/dyimport))
 [![License](https://img.shields.io/npm/l/cache-js)](https://github.com/fajardison/dyimport?tab=MIT-1-ov-file)
 [![Downloads](https://img.shields.io/npm/l/cache-js)](https://github.com/fajardison/dyimport?tab=MIT-1-ov-file)
 
