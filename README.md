@@ -97,7 +97,7 @@ async function runTest() {
 runTest();
 ```
 
->Note: Tentukan root direktori global anda dengan bijak agar terhindar dari Error, jika terdapat file yang sama akan memprioritaskan file yang berada didalam subfolder, atau file yang ditemukan nya pertama kali. Kami sedang memperbaikinya untuk menghindari kesalahan pada modul yang diimpor.
+>Note: Tentukan root direktori global anda dan nama file dengan bijak agar terhindar dari Error, jika terdapat nama file yang sama akan memprioritaskan file yang berada didalam subfolder, atau file yang ditemukan nya pertama kali. Kami sedang memperbaikinya untuk menghindari kesalahan pada modul yang diimpor.
 
 ## Lisensi
 Proyek ini dilisensikan di bawah lisensi MIT. Lihat [LICENSE](https://github.com/fajardison/dyimport?tab=MIT-1-ov-file) untuk informasi lebih lanjut.
