@@ -16,8 +16,6 @@
 
 - Error Handling: Penanganan eror yang memberikan informasi kesalahan saat uji coba.
 
-- Debugging: Anda dapat menggunakan fitur debug untuk pengujian aplikasi anda.
-
 - File Search: Mencari file dalam direktori dan subdirektori secara rekursif.
 
 - Global Folders: Dapat menentukan beberapa folder global sekaligus pada package.json menggunakan variabel root dengan tipe data array.
@@ -97,10 +95,6 @@ runTest();
 # Project Title
 
 Deskripsi singkat tentang proyek Anda.
-
-## Peringatan
-
->`Peringatan`: Pustaka ini sedang dalam pengembangan. Tentukan root direktori global anda dan nama file dengan bijak agar terhindar dari Error, jika terdapat nama file yang sama akan memprioritaskan file yang berada didalam subfolder, atau file yang ditemukan nya pertama kali. Kami sedang memperbaikinya untuk menghindari kesalahan pada modul yang diimpor.
 
 ## Lisensi
 Proyek ini dilisensikan di bawah lisensi MIT. Lihat [LICENSE](https://github.com/fajardison/dyimport?tab=MIT-1-ov-file) untuk informasi lebih lanjut.
