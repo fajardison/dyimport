@@ -7,7 +7,9 @@
     ".": "./index.js"
   },
   "directories": {
-    "test": "test"
+    "src": "src",
+    "keys": "keys",
+    "cache": "cache"
   },
   "scripts": {
     "test": "node test/test"
@@ -30,7 +32,8 @@
     "import",
     "module",
     "dynamic",
-    "importer"
+    "importer",
+    "import"
   ],
   "author": "Dimas Fajar",
   "license": "MIT",
