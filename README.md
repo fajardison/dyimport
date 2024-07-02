@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/npm/v/cache-class)](https://www.npmjs.com/package/dyimport?activeTab=versions)
 [![License](https://img.shields.io/npm/l/cache-js)](https://github.com/fajardison/dyimport?tab=MIT-1-ov-file)
 
-`dyimport` is a library to dynamically import ESM javascript modules from a specific root directory with additional features such as caching and hashing to improve efficiency. This library is designed to make it easier to manage modules in large projects with complex folder structures.
+`dyimport` is a library to dynamically import `ESM javascript` modules from a specific root directory with additional features such as caching and hashing to improve efficiency. This library is designed to make it easier to manage modules in large projects with complex folder structures.
 
 ## Main feature
 - Dynamic Import: Imports modules based on filename at runtime.
