@@ -94,9 +94,13 @@ async function runTest() {
 
 runTest();
 ```
-> <span style="color: red;">Peringatan: Pustaka ini sedang dalam pengembangan. Tentukan root direktori global anda dan nama file dengan bijak agar terhindar dari Error, jika terdapat nama file yang sama akan memprioritaskan file yang berada didalam subfolder, atau file yang ditemukan nya pertama kali. Kami sedang memperbaikinya untuk menghindari kesalahan pada modul yang diimpor.</span>
+# Project Title
 
->Peringatan: Pustaka ini sedang dalam pengembangan. Tentukan root direktori global anda dan nama file dengan bijak agar terhindar dari Error, jika terdapat nama file yang sama akan memprioritaskan file yang berada didalam subfolder, atau file yang ditemukan nya pertama kali. Kami sedang memperbaikinya untuk menghindari kesalahan pada modul yang diimpor.
+Deskripsi singkat tentang proyek Anda.
+
+## Peringatan
+
+> <span style="color: red;">Peringatan</span>: Pustaka ini sedang dalam pengembangan. Tentukan root direktori global anda dan nama file dengan bijak agar terhindar dari Error, jika terdapat nama file yang sama akan memprioritaskan file yang berada didalam subfolder, atau file yang ditemukan nya pertama kali. Kami sedang memperbaikinya untuk menghindari kesalahan pada modul yang diimpor.
 
 ## Lisensi
 Proyek ini dilisensikan di bawah lisensi MIT. Lihat [LICENSE](https://github.com/fajardison/dyimport?tab=MIT-1-ov-file) untuk informasi lebih lanjut.
