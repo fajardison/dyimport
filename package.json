@@ -29,9 +29,10 @@
   ],
   "keywords": [
     "dyimport",
+    "dynamic",    
     "import",
     "module",
-    "dynamic",
+    "modules",
     "importer",
     "import"
   ],
