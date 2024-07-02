@@ -3,35 +3,36 @@
 [![Version](https://img.shields.io/npm/v/cache-class)](https://www.npmjs.com/package/dyimport?activeTab=versions)
 [![License](https://img.shields.io/npm/l/cache-js)](https://github.com/fajardison/dyimport?tab=MIT-1-ov-file)
 
-`dyimport` adalah pustaka untuk mengimpor modul `javascript ESM` secara dinamis dari direktori root yang ditentukan dengan fitur tambahan seperti caching dan hashing untuk meningkatkan efisiensi. Pustaka ini dirancang untuk mempermudah pengelolaan modul dalam proyek besar dengan struktur folder yang kompleks.
+`dyimport` is a library to dynamically import ESM javascript modules from a specific root directory with additional features such as caching and hashing to improve efficiency. This library is designed to make it easier to manage modules in large projects with complex folder structures.
 
-## Fitur Utama
-- Dynamic Import: Mengimpor modul berdasarkan nama file pada runtime.
+## Main feature
+- Dynamic Import: Imports modules based on filename at runtime.
 
-- Caching: Menyimpan hasil impor modul untuk menghindari impor berulang yang tidak perlu dan mempercepat akses modul.
+- Caching: Saves module import results to avoid unnecessary repeated imports and speed up module access.
 
-- Hashing: Menggunakan hashing untuk menghasilkan token unik yang membantu dalam proses caching.
+- Hashing: Using hashing to generate unique tokens that help in the caching process.
 
-- Security: Mengamankan hasil dari import modul menggunakan hashing dan authtoken.
+- Security: Secure module import results using hashing and authtoken.
 
-- Error Handling: Penanganan eror yang memberikan informasi kesalahan saat uji coba.
+- Error Handling: Error handling that provides error information during testing.
 
-- File Search: Mencari file dalam direktori dan subdirektori secara rekursif.
+- File Search: Searches files in directories and subdirectories recursively.
 
-- Global Folders: Dapat menentukan beberapa folder global sekaligus pada package.json menggunakan variabel root dengan tipe data array.
+- Global Folders: Can define multiple global folders at once in package.json using a root variable with array data type.
 
-## Instalasi
-Anda dapat menginstal `dyimport` melalui npm dengan perintah berikut:
+## Installation
+You can install `dyimport` via npm with the following command:
 
 ```sh
 npm install dyimport
 ```
 
-# Penggunaan
-Berikut adalah contoh cara menggunakan `dyimport` dalam aplikasi Anda:
+# Use
+Here's an example of how to use `dyimport` in your application:
 
-## Konfigurasi package.json
-Untuk mendefinisikan direktori `root` global dan memungkinkan `dyimport` mencari file yang ditentukan dalam subfolder, Anda perlu menambahkan konfigurasi berikut dalam package.json Anda:
+## Package.json configuration
+To define a `global root` directory and allow `dyimport` to search for specific files in subfolders, you need to add the following configuration in your package.json:
+
 ```json
 {
   "name": "module-name",
@@ -44,7 +45,8 @@ Untuk mendefinisikan direktori `root` global dan memungkinkan `dyimport` mencari
   ]
 }
 ```
-## Mengimpor Modul
+## Importing Modules
+
 ```js
 import load from 'dyimport';
 
@@ -53,8 +55,8 @@ const modules = await load('module.js'); // importing multiple modules in one cl
 const { module1, module2 } await load(module.mjs) // import multiple modules by function.
 ```
 
-## Menggunakan Modul yang Diimpor
-Setelah Anda mengimpor modul, Anda dapat menggunakan fungsi atau objek yang diekspor dari modul tersebut:
+## Using Imported Modules
+After importing a module, you can use functions or objects exported from that module:
 ```js
 import load from 'dyimport';
 
@@ -74,7 +76,7 @@ async function runTest() {
 runTest();
 ```
 
-Anda juga dapat melakukan nya seperti ini:
+You can also do it like this:
 ```js
 import load from 'dyimport';
 // Importing file 'path/to/you/modules/testFile.js'
@@ -92,12 +94,8 @@ async function runTest() {
 
 runTest();
 ```
-# Project Title
+## Licence
+This project is licensed under the MIT license. See [LICENSE](https://github.com/fajardison/dyimport?tab=MIT-1-ov-file) for more information.
 
-Deskripsi singkat tentang proyek Anda.
-
-## Lisensi
-Proyek ini dilisensikan di bawah lisensi MIT. Lihat [LICENSE](https://github.com/fajardison/dyimport?tab=MIT-1-ov-file) untuk informasi lebih lanjut.
-
-## Kontak
-Untuk pertanyaan atau informasi lebih lanjut, Anda dapat menghubungi kami di [Github](https://github.com/fajardison/dyimport).
+## Contact
+For questions or further information, you can contact us at [Github](https://github.com/fajardison/dyimport).
