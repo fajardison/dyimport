@@ -22,6 +22,8 @@
 
 - Global Folder: Menentukan folder global pada package.json menggunakan variabel root dengan tipe data array.
 
+- Duplicate module: Penanganan nama modul dan nilai yang sama sehingga terhindar dari kesalahan impor modul.
+
 ## Instalasi
 Anda dapat menginstal `dyimport` melalui npm dengan perintah berikut:
 
@@ -51,8 +53,8 @@ Untuk mendefinisikan direktori `root` global dan memungkinkan `dyimport` mencari
 import load from 'dyimport';
 
 // Import the module dynamically and search for 'module.js' in the root directory specified in package.json.
-const variabel = await load('module.js');
-const { module1, module2 } await load(module.mjs)
+const modules = await load('module.js'); // importing multiple modules in one class.
+const { module1, module2 } await load(module.mjs) // import multiple modules by function.
 ```
 
 ## Menggunakan Modul yang Diimpor
@@ -94,6 +96,8 @@ async function runTest() {
 
 runTest();
 ```
+
+>Note: Tentukan root direktori global anda dengan bijak agar terhindar dari Error, jika terdapat file yang sama akan memprioritaskan file yang berada didalam subfolder, atau file yang ditemukan nya pertama kali. Kami sedang memperbaikinya untuk menghindari kesalahan pada modul yang diimpor.
 
 ## Lisensi
 Proyek ini dilisensikan di bawah lisensi MIT. Lihat [LICENSE](https://github.com/fajardison/dyimport?tab=MIT-1-ov-file) untuk informasi lebih lanjut.
