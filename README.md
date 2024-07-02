@@ -6,23 +6,23 @@
 `dyimport` adalah pustaka untuk mengimpor modul `javascript ESM` secara dinamis dari direktori root yang ditentukan dengan fitur tambahan seperti caching dan hashing untuk meningkatkan efisiensi. Pustaka ini dirancang untuk mempermudah pengelolaan modul dalam proyek besar dengan struktur folder yang kompleks.
 
 ## Fitur Utama
-- Import Dinamis: Mengimpor modul berdasarkan nama file pada runtime.
+- Dynamic Import: Mengimpor modul berdasarkan nama file pada runtime.
 
 - Caching: Menyimpan hasil impor modul untuk menghindari impor berulang yang tidak perlu dan mempercepat akses modul.
 
 - Hashing: Menggunakan hashing untuk menghasilkan token unik yang membantu dalam proses caching.
 
-- Scure: Mengamankan hasil dari import modul menggunakan hashing dan authtoken.
+- Security: Mengamankan hasil dari import modul menggunakan hashing dan authtoken.
 
-- Penanganan Err: Penanganan eror yang memberikan informasi kesalahan saat uji coba.
+- Error Handling: Penanganan eror yang memberikan informasi kesalahan saat uji coba.
 
 - Debugging: Anda dapat menggunakan fitur debug untuk pengujian aplikasi anda.
 
-- Pencarian File: Mencari file dalam direktori dan subdirektori secara rekursif.
+- File Search: Mencari file dalam direktori dan subdirektori secara rekursif.
 
-- Global Folder: Menentukan folder global pada package.json menggunakan variabel root dengan tipe data array.
+- Global Folders: Menentukan folder global pada package.json menggunakan variabel root dengan tipe data array.
 
-- Duplicate module: Penanganan nama modul dan nilai yang sama sehingga terhindar dari kesalahan impor modul.
+- Duplicate Module: Penanganan nama modul dan nilai yang sama sehingga terhindar dari kesalahan impor modul.
 
 ## Instalasi
 Anda dapat menginstal `dyimport` melalui npm dengan perintah berikut:
