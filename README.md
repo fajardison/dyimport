@@ -8,9 +8,15 @@
 ## Fitur Utama
 - Import Dinamis: Mengimpor modul berdasarkan nama file pada runtime.
 
-- Caching: Menyimpan hasil impor modul untuk menghindari impor ulang yang tidak perlu dan mempercepat akses modul.
+- Caching: Menyimpan hasil impor modul untuk menghindari impor berulang yang tidak perlu dan mempercepat akses modul.
 
 - Hashing: Menggunakan hashing untuk menghasilkan token unik yang membantu dalam proses caching.
+
+- Scure: Mengamankan hasil dari import modul menggunakan hashing dan authtoken.
+
+- Penanganan Err: Penanganan eror yang memberikan informasi kesalahan saat uji coba.
+
+- Debugging: Anda dapat menggunakan fitur debug untuk pengujian aplikasi anda.
 
 - Pencarian File: Mencari file dalam direktori dan subdirektori secara rekursif.
 
@@ -50,7 +56,7 @@ const { module1, module2 } await load(module.mjs)
 ```
 
 ## Menggunakan Modul yang Diimpor
-Setelah Anda mengimpor modul, Anda dapat menggunakan fungsi atau objek yang diekspor dari modul tersebut.
+Setelah Anda mengimpor modul, Anda dapat menggunakan fungsi atau objek yang diekspor dari modul tersebut:
 ```js
 import load from 'dyimport';
 
@@ -70,7 +76,7 @@ async function runTest() {
 runTest();
 ```
 
-Anda juga dapat melakukan nya seperti ini.
+Anda juga dapat melakukan nya seperti ini:
 ```js
 import load from 'dyimport';
 // Importing file 'path/to/you/modules/testFile.js'
