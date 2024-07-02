@@ -70,18 +70,23 @@ async function runTest() {
 runTest();
 ```
 
-## API
-```bash
-load(fileName: string): Promise<any>
-Parameter:
+Anda juga dapat melakukan nya seperti ini.
+```js
+import load from 'dyimport';
+// Mengimpor file 'module/testFile.js'
+const { test1, test2 } = await load('module/testFile.js');
 
-fileName: Nama file modul yang akan diimpor.
-Returns:
+async function runTest() {
+  try {
+    // Menggunakan fungsi yang diimpor
+    console.log(test1()); // Output: this is test use dyimport.
+    console.log(test2()); // Output: test successful.
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
 
-Modul yang diimpor sebagai objek.
-Throws:
-
-Error jika terjadi kesalahan selama proses impor.
+runTest();
 ```
 
 ## Lisensi
