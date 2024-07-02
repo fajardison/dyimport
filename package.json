@@ -1,6 +1,6 @@
 {
   "name": "dyimport",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library for dynamic import of modules in multiple folders using ESM javascript modules.",
   "type": "module",
     "exports": {
@@ -11,9 +11,6 @@
     "keys": "keys",
     "cache": "cache"
   },
-  "scripts": {
-    "test": "node test/test"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/fajardison/dyimport.git"
@@ -23,16 +20,14 @@
     "README.md",
     "index.js",
     "src/",
-    "test/",
     "cache/",
     "keys/"
   ],
   "keywords": [
     "dyimport",
-    "dynamic",    
     "import",
     "module",
-    "modules",
+    "dynamic",
     "importer",
     "import"
   ],
@@ -41,8 +36,5 @@
   "bugs": {
     "url": "https://github.com/fajardison/dyimport/issues"
   },
-  "homepage": "https://github.com/fajardison/dyimport#readme",
-  "root": [
-    "test"
-    ]
+  "homepage": "https://github.com/fajardison/dyimport#readme"
 }
