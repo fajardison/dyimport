@@ -39,14 +39,14 @@ async function route(fileName) {
       throw new Error('loadData should return an array of directories.');
     }
 
-    console.log('Available directories:', data);
+    // console.log('Available directories:', data);
 
     const fullPath = await findFile(fileName, data);
     if (!fullPath) {
       throw new Error(`No matching file found for ${fileName}`);
     }
 
-    console.log('Full path:', fullPath); // Log path untuk debug
+    // console.log('Full path:', fullPath); // Log path untuk debug
 
     const cachedModule = await cache.getFromCache(fileName, accessToken);
     if (cachedModule) {
