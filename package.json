@@ -1,7 +1,7 @@
 {
   "name": "dyimport",
   "version": "1.0.1",
-  "description": "Library for dynamic import of modules in multiple folders using ESM javascript modules.",
+  "description": "Library for dynamically importing modules using JavaScript ES modules.",
   "type": "module",
     "exports": {
     ".": "./index.mjs"
