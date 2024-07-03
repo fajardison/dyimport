@@ -2,7 +2,6 @@
 ## _dyimport_
 [![Package-Version](https://img.shields.io/badge/Version-V1.0.1-blue)](https://www.npmjs.com/package/dyimport?activeTab=versions)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/fajardison/dyimport?tab=MIT-1-ov-file)
-
 [![ESMJS](https://img.shields.io/badge/javascript-ESM-orange)](https://nodejs.org/api/esm.html)
 
 `dyimport` is a library to dynamically import modules from a specific root directory with additional features such as caching and hashing to improve efficiency. This library is designed to make it easier to manage modules in large projects with complex folder structures.
