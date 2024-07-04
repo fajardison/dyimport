@@ -1,6 +1,6 @@
 # Dynamic Import Library
 ## _dyimport_
-[![Package-Version](https://img.shields.io/badge/Version-V1.0.1-blue)](https://www.npmjs.com/package/dyimport?activeTab=versions)
+[![Package-Version](https://img.shields.io/badge/Version-V1.0.3-blue)](https://www.npmjs.com/package/dyimport?activeTab=versions)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/fajardison/dyimport?tab=MIT-1-ov-file)
 [![ESMJS](https://img.shields.io/badge/javascript-ESM-orange)](https://nodejs.org/api/esm.html)
 
@@ -64,7 +64,7 @@ import load from 'dyimport';
 async function runTest() {
   try {
     // Importing file 'path/to/you/modules/testFile.js'
-    const { test1, test2 } = await load('module/testFile.js');
+    const { test1, test2 } = await load('testFile.js');
     
     // Using imported modules
     console.log(test1()); // Output: this is a test using dyimport.
@@ -81,7 +81,7 @@ You can also do it like this:
 ```js
 import load from 'dyimport';
 // Importing file 'path/to/you/modules/testFile.js'
-const { test1, test2 } = await load('module/testFile.js');
+const { test1, test2 } = await load('testFile.js');
 
 async function runTest() {
   try {
