@@ -14,9 +14,9 @@
  * Module dependencies.
  */
  
-import { loadData } from './root.mjs';
-import { findFile } from './fileUtils.mjs';
-import { initialize } from './initUtils.mjs';
+import { loadData } from './root.js';
+import { findFile } from './fileUtils.js';
+import { initialize } from './initUtils.js';
 
 // Inisialisasi Secret dan Cache
 const { authToken, accessToken, cache } = initialize();
