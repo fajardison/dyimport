@@ -8,8 +8,8 @@
 
 'use strict';
 
-import { Generate } from './keyGen.mjs';
-import Hash from './sha.mjs';
+import { Generate } from './keyGen.js';
+import Hash from './hash.js';
 
 /**
  * Kelas Secret untuk menghasilkan dan memverifikasi hash.
