@@ -7,8 +7,8 @@
 
 'use strict';
 
-import Secret from '../keys/secret.mjs';
-import Cache from '../cache/cache.mjs';
+import Secret from '../keys/secret.js';
+import Cache from '../cache/cache.js';
 
 /**
  * Inisialisasi Secret dan Cache.
