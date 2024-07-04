@@ -37,13 +37,13 @@
  
 'use strict';
  
-import authenticate from './authenticate.mjs';
-import addToCache from './addToCache.mjs';
-import getFromCache from './getFromCache.mjs';
-import deleteFromCache from './deleteFromCache.mjs';
-import clearCache from './clearCache.mjs';
-import scheduleCleanup from './scheduleCleanup.mjs';
-import getCacheStatus from './getCacheStatus.mjs';
+import authenticate from './authenticate.js';
+import addToCache from './addToCache.js';
+import getFromCache from './getFromCache.js';
+import deleteFromCache from './deleteFromCache.js';
+import clearCache from './clearCache.js';
+import scheduleCleanup from './scheduleCleanup.js';
+import getCacheStatus from './getCacheStatus.js';
 
 
 export default class Cache {
