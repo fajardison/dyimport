@@ -1,10 +1,10 @@
 {
   "name": "dyimport",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library for dynamically importing modules using JavaScript ES modules.",
   "type": "module",
     "exports": {
-    ".": "./index.mjs"
+    ".": "./index.js"
   },
   "directories": {
     "src": "src",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fajardison/dyimport.git"
+    "url": "git+https://github.com/fajardison/dyimport.git"
   },
     "files": [
     "LICENSE",
@@ -26,10 +26,11 @@
   "keywords": [
     "dyimport",
     "import",
-    "module",
-    "dynamic",
     "importer",
-    "import"
+    "module",
+    "modules",
+    "dynamic",
+    "alias"
   ],
   "author": "Dimas Fajar",
   "license": "MIT",
