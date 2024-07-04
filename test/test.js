@@ -19,7 +19,7 @@ import load from 'dyimport';
 async function runTest() {
   try {
     // Memuat file testFile.js secara dinamis menggunakan `dyimport`
-    const module = await load('estFile.js');
+    const module = await load('testmodule.js');
     
     // Memanggil fungsi `test1` dan `test2` dari modul yang dimuat
     const result1 = module.test1();
