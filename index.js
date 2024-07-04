@@ -7,5 +7,5 @@
 'use strict';
 
 
-import load from './src/loadModule.mjs';
+import load from './src/loadModule.js';
 export default load;
